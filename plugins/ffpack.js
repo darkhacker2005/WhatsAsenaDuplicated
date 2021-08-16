@@ -1,7 +1,4 @@
 const Asena = require('../events')
-const ffpack = require('fluent-ffpack');
-const {execFile} = require('child_process');
-const cwebp = require('cwebp-bin');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
@@ -12,7 +9,7 @@ const Ln = "  *▷DARK KNIGHT BOT 🇱🇰◁* "
 
 if (Config.WORKTYPE == 'public') {
     
-      Asena.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
+      Asena.addCommand({pattern: 'ffpack', fromMe: false, AddCommandList:true , desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
