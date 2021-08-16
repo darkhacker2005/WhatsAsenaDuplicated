@@ -1,4 +1,7 @@
-const Asena = require('../events');
+const Asena = require('../events')
+const ffpack = require('fluent-ffpack');
+const {execFile} = require('child_process');
+const cwebp = require('cwebp-bin');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
