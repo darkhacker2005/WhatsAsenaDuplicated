@@ -1,13 +1,18 @@
-const Asena = require('../events')
-const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
-const fs = require('fs');
-const axios = require('axios');
-const Config = require('../config');
+const Asena = require( ../events );
+
+const { MessageType, MessageOptions, Mimetype } = require( @adiwajshing/baileys );
+
+const fs = require( fs );
+
+const axios = require( axios );
+
+const Config = require( ../config );
+
 const ll ="*වචනයක් අවශ්‍යයි 😭*"
+
 const Ln = "  *▷DARK KNIGHT BOT 🇱🇰◁* "
  const code = "*╔═════◉DARK KNIGHT◉═════╗*\n             DARK KNIGHT 🇱🇰\n*❖═List═❖*\n*💠.ff1       ❴your text❵*\n*send free fire logo\n💠.ff2       ❴your text❵*\n*send free fire logo*\n*💠.ff3       ❴your text❵*\n*send free fire logo\n💠.ff4       ❴your text❵*\n*send free fire logo\n💠.ff5       ❴your text❵*\n*send free fire logo\n💠.ff6       ❴your text❵*\n*send free fire logo\n💠.ff7       ❴your text❵*\n*send free fire logo\n💠.ff8       ❴your text❵*\n*send free fire logo\n💠.ff9       ❴your text❵*\n*send free fire logo\n💠.ff10       ❴your text❵*\n*send free fire logo\n💠.ff12       ❴your text❵*\n*send free fire logo\n💠.ff13       ❴your text❵*\n*send free fire logo\n💠.ff14       ❴your text❵*\n*send free fire logo\n💠.ff15       ❴your text❵*\n*send free fire logo\n💠.ff16       ❴your text❵*\n*send free fire logo\n💠.ff17       ❴your text❵*\n*send free fire logo\n💠.ff18       ❴your text❵*\n*send free fire logo\n💠.ff19       ❴your text❵*\n*send free fire logo\n💠.ff20       ❴your text❵*\n*send free fire logo\n💠.ff21       ❴your text❵*\n*send free fire logo\n💠.ff22       ❴your text❵*\n*send free fire logo\n💠.ff23       ❴your text❵*\n*send free fire logo\n💠.ff24       ❴your text❵*\n*send free fire logo\n💠.ff25       ❴your text❵*\n*send free fire logo\n💠.ff26       ❴your text❵*\n*send free fire logo\n💠.ff27       ❴your text❵*\n*send free fire logo\n💠.ff28       ❴your text❵*\n*send free fire logo\n💠.ff29       ❴your text❵*\n*send free fire logo\n💠.ff30       ❴your text❵*\n*send free fire logo\n💠.ff31       ❴your text❵*\n*send free fire logo\n💠.ff32       ❴your text❵*\n*send free fire logo\n💠.ff33       ❴your text❵*\n*send free fire logo\n💠.ff34       ❴your text❵*\n*send free fire logo\n💠.ff35       ❴your text❵*\n*send free fire logo\n💠.ff36       ❴your text❵*\n*send free fire logo\n💠.ff37       ❴your text❵*\n*send free fire logo\n💠.ff38       ❴your text❵*\n*send free fire logo\n💠.ff39       ❴your text❵*\n*send free fire logo\n💠.ff40       ❴your text❵*\n*send free fire logo\n💠.ff41       ❴your text❵*\n*send free fire logo\n💠.ff42       ❴your text❵*\n*send free fire logo\n💠.ff43       ❴your text❵*\n*send free fire logo\n💠.ff44       ❴your text❵*\n*send free fire logo\n💠.ff45       ❴your text❵*\n*send free fire logo\n💠.ff46       ❴your text❵*\n*send free fire logo\n💠.ff47       ❴your text❵*\n*send free fire logo\n💠.ff48       ❴your text❵*\n*send free fire logo\n💠.ff49       ❴your text❵*\n*send free fire logo\n💠.ff50       ❴your text❵*\n*send free fire logo\n*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Creator: HIRUSHA*"
 
-if (Config.WORKTYPE == 'public') {
     
       Asena.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
