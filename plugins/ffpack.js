@@ -1,12 +1,12 @@
-const Asena = require( ../events );
+const Asena = require('../events');
 
-const { MessageType, MessageOptions, Mimetype } = require( @adiwajshing/baileys );
+const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 
-const fs = require( fs );
+const fs = require('fs');
 
-const axios = require( axios );
+const axios = require('axios');
 
-const Config = require( ../config );
+const Config = require('../config');
 
 const ll ="*වචනයක් අවශ්‍යයි 😭*"
 
