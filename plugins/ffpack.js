@@ -9,7 +9,7 @@ const Ln = "  *▷DARK KNIGHT BOT 🇱🇰◁* "
 
 if (Config.WORKTYPE == 'public') {
     
-      Asena.addCommand({pattern: 'ffpack', fromMe: false, AddCommandList:true , desc: Ln,}, (async (message, match) => {
+      Asena.addCommand({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
